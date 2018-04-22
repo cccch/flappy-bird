@@ -69,8 +69,8 @@
             json.skyx2--;
             json.skyx1 = json.skyx1 < -data['sky'].width? data['sky'].width:json.skyx1;
             json.skyx2 = json.skyx2 < -data['sky'].width? data['sky'].width:json.skyx2;
-            cts.drawImage(data['sky'],json.skyx1,0)
-            cts.drawImage(data['sky'],json.skyx2,0)
+            cts.drawImage(data['sky'],json.skyx1,0);
+            cts.drawImage(data['sky'],json.skyx2,0);
 
     }
     //陆地绘制
@@ -83,11 +83,11 @@
         json.landx2 = json.landx2 <= -data['land'].width? data['land'].width*3:json.landx2;
         json.landx3 = json.landx3 <= -data['land'].width? data['land'].width*3:json.landx3;
         json.landx4 = json.landx4 <= -data['land'].width? data['land'].width*3:json.landx4;
-            cts.drawImage(data['land'],json.landx1,488)
-            cts.drawImage(data['land'],json.landx2,488)
-            cts.drawImage(data['land'],json.landx3,488)
-            cts.drawImage(data['land'],json.landx4,488)
-    }
+            cts.drawImage(data['land'],json.landx1,488);
+            cts.drawImage(data['land'],json.landx2,488);
+            cts.drawImage(data['land'],json.landx3,488);
+            cts.drawImage(data['land'],json.landx4,488);
+    };
     //管道绘制
     function drawPipe(data,json){
 
