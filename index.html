@@ -150,7 +150,7 @@
         cts.rect(0,data['sky'].height-data['land'].height,data['sky'].width,data['land'].height)
         if (cts.isPointInPath(10,20+bird.birdy+data['bird'].height-12)) {
             clearInterval(timer);
-            console.log('游戏结束');
+            div.style.display='block';
             return false;
         }
         //判断撞管道失败
