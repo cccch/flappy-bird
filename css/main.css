@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+#content {
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+#div {
+    position: absolute;
+    width: 800px;
+    height: 600px;
+    left: 50%;
+    top: 0;
+    opacity: 0.5;
+    background-color: #000;
+    text-align: center;
+    font: 900 50px/300px 'microsoft yahei';
+    color: red;
+    display: none;
+    user-select:none;
+    margin-left: -400px;
+}
+#div p:nth-of-type(1) {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -155px;
+    text-align: center;
+    font: 900 50px/500px 'microsoft yahei';
+}
+#div p:nth-of-type(2){
+
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -155px;
+    text-align: center;
+    font: 900 50px/700px 'microsoft yahei';
+}
+#div p:nth-of-type(2) input {
+    width: 200px;
+    height: 80px;
+    font: 600 30px/80px 'microsoft yahei';
+    color:lawngreen;
+    margin-left: 50px;
+
+}
+#grade {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    font: 700 60px/60px 'microsoft yahei';
+    margin-left: 320px;
+    color: rgba(0,255,255,0.6);
+    user-select: none;
+
+}
